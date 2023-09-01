@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+    /**
+     * 测试接口
+     * @return
+     */
     @GetMapping("/test")
     public String test(){
         log.info("接收到外界访问.");
