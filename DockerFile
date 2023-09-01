@@ -8,4 +8,4 @@
 #COPY target/springboot-k8s.jar /pt-dev/test/app.jar
 #指定容器启动时要执行的命令
 #ENTRYPOINT ["java","-jar","/pt-dev/test/app.jar"]
-FROM k8s.gcr.io/coredns:1.6.2
+FROM k8s.gcr.io/test:1
